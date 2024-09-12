@@ -1,0 +1,21 @@
+img{
+    width: 10%  ;
+}
+form {
+
+    align-items: left;
+    flex-direction: column;
+    width: 10%;
+
+}
+
+label{
+    display: flex;
+    font-size: 20px;
+    
+}
+input{
+    margin-top: 10px;
+    border-radius: 50px;
+    font-size: 15px;
+}

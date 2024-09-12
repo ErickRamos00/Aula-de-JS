@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classificador de Triângulo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Classificador de Triângulo</h1>
+        <form id="triangleForm">
+            <label for="side1">Lado 1:</label>
+            <input type="number" id="side1" name="side1" required>
+            <label for="side2">Lado 2:</label>
+            <input type="number" id="side2" name="side2" required>
+            <label for="side3">Lado 3:</label>
+            <input type="number" id="side3" name="side3" required>
+            <button type="submit">Verificar</button>
+        </form>
+        <div id="result">
+            <p id="triangleType"></p>
+            <img id="triangleImage" src="" alt="" style="display:none;">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
